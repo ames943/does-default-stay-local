@@ -1,0 +1,4 @@
+code,name,entity_type,interest,maturity,n_obs,first_date,last_date,pre_signal_obs_before_1843_02_11,post_signal_obs_from_1843_04_01,gaps_over_90_days
+C-1310,"Philadelphia County 5s, old r. 1860",Philadelphia COUNTY (distinct entity from Philadelphia city/C-1100),5s,1860.0,369,1842-12-31,1850-12-28,5,357,none
+C-1300,"Philadelphia County 5s, new r. 1860s,",Philadelphia COUNTY (distinct entity from Philadelphia city/C-1100),5s,1860s,361,1842-12-31,1850-12-28,5,349,1849-09-29 to 1849-12-29 (91d)
+C-1260,"Philadelphia 6s, r. 1852",Philadelphia CITY (same entity as C-1100),6s,1852.0,367,1840-12-19,1850-02-16,88,272,1843-08-05 to 1844-03-23 (231d)

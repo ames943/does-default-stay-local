@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+
+# captioned charts written by the scripts; the paper figures live in figures/
+output/chart_*.png

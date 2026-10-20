@@ -1,0 +1,330 @@
+date,state,code,name,tranche,price,coupon,yield_measure_used,yield,current_yield,series_label,excluded_near_maturity,excluded_past_maturity,active_default_override
+1850-09-21,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,50.0,5.0,current_yield,10.0,10.0,canal_robustness,False,False,True
+1850-10-05,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,9.0,5.0,current_yield,55.55555555555556,55.55555555555556,canal_robustness,False,False,True
+1850-11-06,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,6.0,5.0,current_yield,83.33333333333334,83.33333333333334,canal_robustness,False,False,True
+1851-02-26,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1851-03-19,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1851-04-16,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1851-04-19,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1851-05-07,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,13.0,5.0,current_yield,38.46153846153847,38.46153846153847,canal_robustness,False,False,True
+1851-05-10,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,13.0,5.0,current_yield,38.46153846153847,38.46153846153847,canal_robustness,False,False,True
+1851-06-28,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,13.0,5.0,current_yield,38.46153846153847,38.46153846153847,canal_robustness,False,False,True
+1851-07-16,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1851-07-19,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1851-08-06,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,7.0,5.0,current_yield,71.42857142857143,71.42857142857143,canal_robustness,False,False,True
+1851-09-06,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,14.0,5.0,current_yield,35.714285714285715,35.714285714285715,canal_robustness,False,False,True
+1851-10-22,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.5,5.0,current_yield,32.25806451612903,32.25806451612903,canal_robustness,False,False,True
+1851-12-03,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1852-01-24,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-04-21,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1852-06-26,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1852-07-10,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,18.0,5.0,current_yield,27.77777777777778,27.77777777777778,canal_robustness,False,False,True
+1852-10-23,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,13.0,5.0,current_yield,38.46153846153847,38.46153846153847,canal_robustness,False,False,True
+1852-12-01,Indiana,S-0480,Indiana Canal Deferred 5s,deferred,14.5,5.0,current_yield,34.48275862068966,34.48275862068966,canal_robustness,False,False,True
+1850-04-24,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,28.0,5.0,current_yield,17.857142857142858,17.857142857142858,canal_robustness,False,False,True
+1850-05-04,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,29.0,5.0,current_yield,17.24137931034483,17.24137931034483,canal_robustness,False,False,True
+1850-06-01,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1850-09-18,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,26.0,5.0,current_yield,19.230769230769234,19.230769230769234,canal_robustness,False,False,True
+1850-10-05,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,27.5,5.0,current_yield,18.181818181818183,18.181818181818183,canal_robustness,False,False,True
+1850-10-23,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,29.0,5.0,current_yield,17.24137931034483,17.24137931034483,canal_robustness,False,False,True
+1850-11-06,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,28.5,5.0,current_yield,17.543859649122805,17.543859649122805,canal_robustness,False,False,True
+1850-11-16,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,28.0,5.0,current_yield,17.857142857142858,17.857142857142858,canal_robustness,False,False,True
+1850-12-07,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,29.0,5.0,current_yield,17.24137931034483,17.24137931034483,canal_robustness,False,False,True
+1850-12-11,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,29.5,5.0,current_yield,16.94915254237288,16.94915254237288,canal_robustness,False,False,True
+1850-12-18,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,29.0,5.0,current_yield,17.24137931034483,17.24137931034483,canal_robustness,False,False,True
+1850-12-25,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,30.5,5.0,current_yield,16.39344262295082,16.39344262295082,canal_robustness,False,False,True
+1851-01-01,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,33.0,5.0,current_yield,15.151515151515152,15.151515151515152,canal_robustness,False,False,True
+1851-01-15,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,42.0,5.0,current_yield,11.904761904761903,11.904761904761903,canal_robustness,False,False,True
+1851-01-22,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1851-02-19,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,38.0,5.0,current_yield,13.157894736842104,13.157894736842104,canal_robustness,False,False,True
+1851-03-19,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.75,5.0,current_yield,11.428571428571429,11.428571428571429,canal_robustness,False,False,True
+1851-04-16,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,40.0,5.0,current_yield,12.5,12.5,canal_robustness,False,False,True
+1851-04-19,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.75,5.0,current_yield,11.428571428571429,11.428571428571429,canal_robustness,False,False,True
+1851-04-23,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1851-05-07,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1851-05-10,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1851-05-21,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,21.5,5.0,current_yield,23.25581395348837,23.25581395348837,canal_robustness,False,False,True
+1851-07-02,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,41.0,5.0,current_yield,12.195121951219512,12.195121951219512,canal_robustness,False,False,True
+1851-09-27,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,36.0,5.0,current_yield,13.88888888888889,13.88888888888889,canal_robustness,False,False,True
+1851-10-08,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,37.0,5.0,current_yield,13.513513513513514,13.513513513513514,canal_robustness,False,False,True
+1851-10-22,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,40.25,5.0,current_yield,12.422360248447205,12.422360248447205,canal_robustness,False,False,True
+1851-11-19,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,40.0,5.0,current_yield,12.5,12.5,canal_robustness,False,False,True
+1851-12-03,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,40.0,5.0,current_yield,12.5,12.5,canal_robustness,False,False,True
+1852-02-11,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.0,5.0,current_yield,11.627906976744185,11.627906976744185,canal_robustness,False,False,True
+1852-02-25,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,30.0,5.0,current_yield,16.666666666666664,16.666666666666664,canal_robustness,False,False,True
+1852-03-06,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,40.0,5.0,current_yield,12.5,12.5,canal_robustness,False,False,True
+1852-03-24,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,41.0,5.0,current_yield,12.195121951219512,12.195121951219512,canal_robustness,False,False,True
+1852-04-03,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,42.0,5.0,current_yield,11.904761904761903,11.904761904761903,canal_robustness,False,False,True
+1852-04-07,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.0,5.0,current_yield,11.627906976744185,11.627906976744185,canal_robustness,False,False,True
+1852-05-01,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1852-05-05,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.5,5.0,current_yield,11.494252873563218,11.494252873563218,canal_robustness,False,False,True
+1852-05-15,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,43.75,5.0,current_yield,11.428571428571429,11.428571428571429,canal_robustness,False,False,True
+1852-05-22,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,44.0,5.0,current_yield,11.363636363636363,11.363636363636363,canal_robustness,False,False,True
+1852-05-29,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,45.0,5.0,current_yield,11.11111111111111,11.11111111111111,canal_robustness,False,False,True
+1852-06-02,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,45.125,5.0,current_yield,11.080332409972298,11.080332409972298,canal_robustness,False,False,True
+1852-06-12,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,48.125,5.0,current_yield,10.38961038961039,10.38961038961039,canal_robustness,False,False,True
+1852-06-16,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,49.0,5.0,current_yield,10.204081632653061,10.204081632653061,canal_robustness,False,False,True
+1852-06-26,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,49.5,5.0,current_yield,10.1010101010101,10.1010101010101,canal_robustness,False,False,True
+1852-07-10,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,48.0,5.0,current_yield,10.416666666666668,10.416666666666668,canal_robustness,False,False,True
+1852-07-24,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,46.5,5.0,current_yield,10.75268817204301,10.75268817204301,canal_robustness,False,False,True
+1852-07-28,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,46.5,5.0,current_yield,10.75268817204301,10.75268817204301,canal_robustness,False,False,True
+1852-08-11,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,46.5,5.0,current_yield,10.75268817204301,10.75268817204301,canal_robustness,False,False,True
+1852-08-28,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,49.0,5.0,current_yield,10.204081632653061,10.204081632653061,canal_robustness,False,False,True
+1852-09-04,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,48.5,5.0,current_yield,10.309278350515463,10.309278350515463,canal_robustness,False,False,True
+1852-09-22,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,48.0,5.0,current_yield,10.416666666666668,10.416666666666668,canal_robustness,False,False,True
+1852-10-06,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,47.0,5.0,current_yield,10.638297872340425,10.638297872340425,canal_robustness,False,False,True
+1852-10-30,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,46.0,5.0,current_yield,10.869565217391305,10.869565217391305,canal_robustness,False,False,True
+1852-11-13,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,45.0,5.0,current_yield,11.11111111111111,11.11111111111111,canal_robustness,False,False,True
+1852-11-20,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,46.0,5.0,current_yield,10.869565217391305,10.869565217391305,canal_robustness,False,False,True
+1852-11-27,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,47.0,5.0,current_yield,10.638297872340425,10.638297872340425,canal_robustness,False,False,True
+1852-12-11,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,48.0,5.0,current_yield,10.416666666666668,10.416666666666668,canal_robustness,False,False,True
+1852-12-15,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,47.25,5.0,current_yield,10.582010582010582,10.582010582010582,canal_robustness,False,False,True
+1853-02-09,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,37.5,5.0,current_yield,13.333333333333334,13.333333333333334,canal_robustness,False,False,True
+1853-03-26,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,36.0,5.0,current_yield,13.88888888888889,13.88888888888889,canal_robustness,False,False,True
+1853-05-07,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,33.0,5.0,current_yield,15.151515151515152,15.151515151515152,canal_robustness,False,False,True
+1853-05-21,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,32.5,5.0,current_yield,15.384615384615385,15.384615384615385,canal_robustness,False,False,True
+1853-06-11,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,30.0,5.0,current_yield,16.666666666666664,16.666666666666664,canal_robustness,False,False,True
+1853-06-18,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,30.0,5.0,current_yield,16.666666666666664,16.666666666666664,canal_robustness,False,False,True
+1853-07-09,Indiana,S-0490,Indiana Canal Preferred 5s,preferred,30.0,5.0,current_yield,16.666666666666664,16.666666666666664,canal_robustness,False,False,True
+1850-09-18,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,50.25,5.0,current_yield,9.950248756218906,9.950248756218906,canal_robustness,False,False,True
+1850-10-26,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,12.0,5.0,current_yield,41.66666666666667,41.66666666666667,canal_robustness,False,False,True
+1850-11-06,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,12.0,5.0,current_yield,41.66666666666667,41.66666666666667,canal_robustness,False,False,True
+1851-01-01,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,16.0,5.0,current_yield,31.25,31.25,canal_robustness,False,False,True
+1851-01-15,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,25.0,5.0,current_yield,20.0,20.0,canal_robustness,False,False,True
+1851-01-29,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1851-02-05,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,16.0,5.0,current_yield,31.25,31.25,canal_robustness,False,False,True
+1851-03-19,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1851-04-16,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.25,5.0,current_yield,24.691358024691358,24.691358024691358,canal_robustness,False,False,True
+1851-04-19,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1851-05-07,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1851-05-10,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1851-06-07,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.5,5.0,current_yield,23.25581395348837,23.25581395348837,canal_robustness,False,False,True
+1851-06-14,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1851-07-16,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1851-09-06,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,16.0,5.0,current_yield,31.25,31.25,canal_robustness,False,False,True
+1851-10-08,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,18.0,5.0,current_yield,27.77777777777778,27.77777777777778,canal_robustness,False,False,True
+1851-12-03,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1851-12-17,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1851-12-31,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-01-10,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,21.0,5.0,current_yield,23.809523809523807,23.809523809523807,canal_robustness,False,False,True
+1852-03-10,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,11.0,5.0,current_yield,45.45454545454545,45.45454545454545,canal_robustness,False,False,True
+1852-04-17,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,23.0,5.0,current_yield,21.73913043478261,21.73913043478261,canal_robustness,False,False,True
+1852-05-05,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,19.0,5.0,current_yield,26.31578947368421,26.31578947368421,canal_robustness,False,False,True
+1852-05-22,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-06-02,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-06-16,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,23.0,5.0,current_yield,21.73913043478261,21.73913043478261,canal_robustness,False,False,True
+1852-06-26,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-07-10,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,23.0,5.0,current_yield,21.73913043478261,21.73913043478261,canal_robustness,False,False,True
+1852-08-28,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,22.0,5.0,current_yield,22.727272727272727,22.727272727272727,canal_robustness,False,False,True
+1852-11-03,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-11-13,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.5,5.0,current_yield,24.390243902439025,24.390243902439025,canal_robustness,False,False,True
+1852-11-27,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1852-12-15,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,20.0,5.0,current_yield,25.0,25.0,canal_robustness,False,False,True
+1853-01-12,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,22.0,5.0,current_yield,22.727272727272727,22.727272727272727,canal_robustness,False,False,True
+1853-02-26,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,15.0,5.0,current_yield,33.33333333333333,33.33333333333333,canal_robustness,False,False,True
+1853-06-04,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,35.0,5.0,current_yield,14.285714285714285,14.285714285714285,canal_robustness,False,False,True
+1853-07-23,Indiana,S-0500,Indiana Canal Special Preferred 5s,preferred,12.0,5.0,current_yield,41.66666666666667,41.66666666666667,canal_robustness,False,False,True
+1851-01-01,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1851-01-15,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1851-02-26,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,9.5,5.0,current_yield,52.63157894736842,52.63157894736842,canal_robustness,False,False,True
+1851-07-16,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,7.0,5.0,current_yield,71.42857142857143,71.42857142857143,canal_robustness,False,False,True
+1851-07-19,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,7.0,5.0,current_yield,71.42857142857143,71.42857142857143,canal_robustness,False,False,True
+1851-10-08,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,1.0,5.0,current_yield,500.0,500.0,canal_robustness,False,False,True
+1851-10-22,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,8.0,5.0,current_yield,62.5,62.5,canal_robustness,False,False,True
+1851-12-03,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,8.0,5.0,current_yield,62.5,62.5,canal_robustness,False,False,True
+1852-01-24,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,8.0,5.0,current_yield,62.5,62.5,canal_robustness,False,False,True
+1852-03-06,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,8.0,5.0,current_yield,62.5,62.5,canal_robustness,False,False,True
+1852-03-10,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,8.0,5.0,current_yield,62.5,62.5,canal_robustness,False,False,True
+1852-05-22,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1852-06-16,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,9.0,5.0,current_yield,55.55555555555556,55.55555555555556,canal_robustness,False,False,True
+1852-06-26,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1852-07-10,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.75,5.0,current_yield,46.51162790697674,46.51162790697674,canal_robustness,False,False,True
+1852-11-03,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,9.5,5.0,current_yield,52.63157894736842,52.63157894736842,canal_robustness,False,False,True
+1852-11-27,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1853-02-26,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,9.0,5.0,current_yield,55.55555555555556,55.55555555555556,canal_robustness,False,False,True
+1853-03-09,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,9.0,5.0,current_yield,55.55555555555556,55.55555555555556,canal_robustness,False,False,True
+1853-05-21,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1853-06-04,Indiana,S-0506,Indiana Canal Special Deferred 5s,deferred,10.0,5.0,current_yield,50.0,50.0,canal_robustness,False,False,True
+1831-04-09,New York,S-1750,"New York Canal 5s, 1850",n/a,117.0,5.0,ytm,3.771871215601119,4.273504273504273,canal_robustness,False,False,False
+1831-07-02,New York,S-1750,"New York Canal 5s, 1850",n/a,118.5,5.0,ytm,3.6614457447838746,4.219409282700422,canal_robustness,False,False,False
+1831-07-09,New York,S-1750,"New York Canal 5s, 1850",n/a,117.25,5.0,ytm,3.743817350334153,4.264392324093817,canal_robustness,False,False,False
+1831-07-23,New York,S-1750,"New York Canal 5s, 1850",n/a,119.25,5.0,ytm,3.6089861990210803,4.1928721174004195,canal_robustness,False,False,False
+1831-08-20,New York,S-1750,"New York Canal 5s, 1850",n/a,119.0,5.0,ytm,3.6215579018438393,4.201680672268908,canal_robustness,False,False,False
+1831-08-27,New York,S-1750,"New York Canal 5s, 1850",n/a,119.0,5.0,ytm,3.6205712463668585,4.201680672268908,canal_robustness,False,False,False
+1831-11-05,New York,S-1750,"New York Canal 5s, 1850",n/a,115.0,5.0,ytm,3.882689987937274,4.3478260869565215,canal_robustness,False,False,False
+1831-11-12,New York,S-1750,"New York Canal 5s, 1850",n/a,110.0,5.0,ytm,4.236837376460018,4.545454545454546,canal_robustness,False,False,False
+1831-11-26,New York,S-1750,"New York Canal 5s, 1850",n/a,115.0,5.0,ytm,3.880248915655021,4.3478260869565215,canal_robustness,False,False,False
+1831-12-03,New York,S-1750,"New York Canal 5s, 1850",n/a,116.0,5.0,ytm,3.81026089687507,4.310344827586207,canal_robustness,False,False,False
+1831-12-10,New York,S-1750,"New York Canal 5s, 1850",n/a,117.5,5.0,ytm,3.7067528082252643,4.25531914893617,canal_robustness,False,False,False
+1832-08-18,New York,S-1750,"New York Canal 5s, 1850",n/a,119.5,5.0,ytm,3.5330134574064207,4.184100418410042,canal_robustness,False,False,False
+1832-10-20,New York,S-1750,"New York Canal 5s, 1850",n/a,121.75,5.0,ytm,3.3690234298026573,4.1067761806981515,canal_robustness,False,False,False
+1833-05-25,New York,S-1750,"New York Canal 5s, 1850",n/a,120.0,5.0,ytm,3.4504983886682155,4.166666666666666,canal_robustness,False,False,False
+1833-06-01,New York,S-1750,"New York Canal 5s, 1850",n/a,120.0,5.0,ytm,3.4492331702632133,4.166666666666666,canal_robustness,False,False,False
+1833-09-14,New York,S-1750,"New York Canal 5s, 1850",n/a,121.0,5.0,ytm,3.3588524892958644,4.132231404958678,canal_robustness,False,False,False
+1833-09-21,New York,S-1750,"New York Canal 5s, 1850",n/a,121.0,5.0,ytm,3.3574797612905285,4.132231404958678,canal_robustness,False,False,False
+1833-09-28,New York,S-1750,"New York Canal 5s, 1850",n/a,121.0,5.0,ytm,3.356103797354552,4.132231404958678,canal_robustness,False,False,False
+1834-07-12,New York,S-1750,"New York Canal 5s, 1850",n/a,109.0,5.0,ytm,4.228126047603084,4.587155963302752,canal_robustness,False,False,False
+1834-10-18,New York,S-1750,"New York Canal 5s, 1850",n/a,123.0,5.0,ytm,3.1277502095205487,4.0650406504065035,canal_robustness,False,False,False
+1834-12-27,New York,S-1750,"New York Canal 5s, 1850",n/a,122.0,5.0,ytm,3.18444812427307,4.098360655737705,canal_robustness,False,False,False
+1836-11-05,New York,S-1750,"New York Canal 5s, 1850",n/a,95.0,5.0,ytm,5.518023426452146,5.263157894736842,canal_robustness,False,False,False
+1837-02-04,New York,S-1750,"New York Canal 5s, 1850",n/a,101.0,5.0,ytm,4.898027891936161,4.9504950495049505,canal_robustness,False,False,False
+1837-08-09,New York,S-1750,"New York Canal 5s, 1850",n/a,107.5,5.0,ytm,4.236158414577036,4.651162790697675,canal_robustness,False,False,False
+1837-10-24,New York,S-1750,"New York Canal 5s, 1850",n/a,103.25,5.0,ytm,4.657676967605256,4.842615012106537,canal_robustness,False,False,False
+1837-10-28,New York,S-1750,"New York Canal 5s, 1850",n/a,103.0,5.0,ytm,4.6834022929439705,4.854368932038835,canal_robustness,False,False,False
+1837-11-01,New York,S-1750,"New York Canal 5s, 1850",n/a,103.0,5.0,ytm,4.683183835624942,4.854368932038835,canal_robustness,False,False,False
+1837-11-04,New York,S-1750,"New York Canal 5s, 1850",n/a,103.0,5.0,ytm,4.6830197343828175,4.854368932038835,canal_robustness,False,False,False
+1837-11-18,New York,S-1750,"New York Canal 5s, 1850",n/a,101.0,5.0,ytm,4.89302976870785,4.9504950495049505,canal_robustness,False,False,False
+1837-12-09,New York,S-1750,"New York Canal 5s, 1850",n/a,105.0,5.0,ytm,4.473666729404471,4.761904761904762,canal_robustness,False,False,False
+1839-07-20,New York,S-1750,"New York Canal 5s, 1850",n/a,100.0,5.0,ytm,5.0,5.0,canal_robustness,False,False,False
+1839-09-04,New York,S-1750,"New York Canal 5s, 1850",n/a,98.0,5.0,ytm,5.246125089709396,5.1020408163265305,canal_robustness,False,False,False
+1839-11-02,New York,S-1750,"New York Canal 5s, 1850",n/a,80.0,5.0,ytm,7.741568662656731,6.25,canal_robustness,False,False,False
+1839-12-07,New York,S-1750,"New York Canal 5s, 1850",n/a,85.0,5.0,ytm,7.015784136501918,5.88235294117647,canal_robustness,False,False,False
+1840-01-01,New York,S-1750,"New York Canal 5s, 1850",n/a,82.0,5.0,ytm,7.472256733138201,6.097560975609756,canal_robustness,False,False,False
+1840-01-11,New York,S-1750,"New York Canal 5s, 1850",n/a,87.0,5.0,ytm,6.741593650411529,5.747126436781609,canal_robustness,False,False,False
+1840-01-18,New York,S-1750,"New York Canal 5s, 1850",n/a,88.0,5.0,ytm,6.601537813355804,5.681818181818182,canal_robustness,False,False,False
+1840-02-15,New York,S-1750,"New York Canal 5s, 1850",n/a,91.5,5.0,ytm,6.1206095534727005,5.46448087431694,canal_robustness,False,False,False
+1840-02-29,New York,S-1750,"New York Canal 5s, 1850",n/a,92.5,5.0,ytm,5.986709450816296,5.405405405405405,canal_robustness,False,False,False
+1840-03-28,New York,S-1750,"New York Canal 5s, 1850",n/a,91.0,5.0,ytm,6.200870349108656,5.4945054945054945,canal_robustness,False,False,False
+1840-04-25,New York,S-1750,"New York Canal 5s, 1850",n/a,94.0,5.0,ytm,5.793214175403426,5.319148936170213,canal_robustness,False,False,False
+1840-05-02,New York,S-1750,"New York Canal 5s, 1850",n/a,94.0,5.0,ytm,5.794480112815213,5.319148936170213,canal_robustness,False,False,False
+1840-06-13,New York,S-1750,"New York Canal 5s, 1850",n/a,86.0,5.0,ytm,6.952264721382409,5.813953488372093,canal_robustness,False,False,False
+1840-07-04,New York,S-1750,"New York Canal 5s, 1850",n/a,90.0,5.0,ytm,6.37179020214897,5.555555555555555,canal_robustness,False,False,False
+1840-09-05,New York,S-1750,"New York Canal 5s, 1850",n/a,92.0,5.0,ytm,6.102239353891337,5.434782608695652,canal_robustness,False,False,False
+1840-11-07,New York,S-1750,"New York Canal 5s, 1850",n/a,91.5,5.0,ytm,6.192138039009802,5.46448087431694,canal_robustness,False,False,False
+1840-12-30,New York,S-1750,"New York Canal 5s, 1850",n/a,88.0,5.0,ytm,6.736833933873712,5.681818181818182,canal_robustness,False,False,False
+1841-03-10,New York,S-1750,"New York Canal 5s, 1850",n/a,83.0,5.0,ytm,7.5726093532763965,6.024096385542169,canal_robustness,False,False,False
+1841-03-24,New York,S-1750,"New York Canal 5s, 1850",n/a,80.0,5.0,ytm,8.088056855607558,6.25,canal_robustness,False,False,False
+1841-03-31,New York,S-1750,"New York Canal 5s, 1850",n/a,80.5,5.0,ytm,8.00790487129248,6.211180124223603,canal_robustness,False,False,False
+1841-04-10,New York,S-1750,"New York Canal 5s, 1850",n/a,82.0,5.0,ytm,7.760730486577412,6.097560975609756,canal_robustness,False,False,False
+1841-05-22,New York,S-1750,"New York Canal 5s, 1850",n/a,86.0,5.0,ytm,7.124083150476112,5.813953488372093,canal_robustness,False,False,False
+1841-06-19,New York,S-1750,"New York Canal 5s, 1850",n/a,83.0,5.0,ytm,7.640897030112479,6.024096385542169,canal_robustness,False,False,False
+1841-09-25,New York,S-1750,"New York Canal 5s, 1850",n/a,83.25,5.0,ytm,7.66800231291165,6.006006006006006,canal_robustness,False,False,False
+1842-01-15,New York,S-1750,"New York Canal 5s, 1850",n/a,74.0,5.0,ytm,9.500743094752485,6.756756756756757,canal_robustness,False,False,False
+1842-04-30,New York,S-1750,"New York Canal 5s, 1850",n/a,80.0,5.0,ytm,8.451262536171562,6.25,canal_robustness,False,False,False
+1842-05-14,New York,S-1750,"New York Canal 5s, 1850",n/a,81.0,5.0,ytm,8.274317613196278,6.172839506172839,canal_robustness,False,False,False
+1842-05-21,New York,S-1750,"New York Canal 5s, 1850",n/a,82.0,5.0,ytm,8.091459223738159,6.097560975609756,canal_robustness,False,False,False
+1842-10-08,New York,S-1750,"New York Canal 5s, 1850",n/a,79.0,5.0,ytm,8.83038920066481,6.329113924050633,canal_robustness,False,False,False
+1842-10-22,New York,S-1750,"New York Canal 5s, 1850",n/a,80.0,5.0,ytm,8.644089294774226,6.25,canal_robustness,False,False,False
+1842-11-12,New York,S-1750,"New York Canal 5s, 1850",n/a,82.0,5.0,ytm,8.26578484806333,6.097560975609756,canal_robustness,False,False,False
+1842-11-19,New York,S-1750,"New York Canal 5s, 1850",n/a,84.0,5.0,ytm,7.877926421404682,5.952380952380952,canal_robustness,False,False,False
+1842-12-03,New York,S-1750,"New York Canal 5s, 1850",n/a,85.0,5.0,ytm,7.695804853577476,5.88235294117647,canal_robustness,False,False,False
+1842-12-10,New York,S-1750,"New York Canal 5s, 1850",n/a,85.5,5.0,ytm,7.6049138333774025,5.847953216374268,canal_robustness,False,False,False
+1843-01-14,New York,S-1750,"New York Canal 5s, 1850",n/a,85.0,5.0,ytm,7.733618052014278,5.88235294117647,canal_robustness,False,False,False
+1843-02-11,New York,S-1750,"New York Canal 5s, 1850",n/a,88.0,5.0,ytm,7.172394547238102,5.681818181818182,canal_robustness,False,False,False
+1843-03-11,New York,S-1750,"New York Canal 5s, 1850",n/a,90.0,5.0,ytm,6.808470130309698,5.555555555555555,canal_robustness,False,False,False
+1843-04-15,New York,S-1750,"New York Canal 5s, 1850",n/a,91.0,5.0,ytm,6.638841636376442,5.4945054945054945,canal_robustness,False,False,False
+1843-04-22,New York,S-1750,"New York Canal 5s, 1850",n/a,95.0,5.0,ytm,5.893976560370674,5.263157894736842,canal_robustness,False,False,False
+1843-06-10,New York,S-1750,"New York Canal 5s, 1850",n/a,98.0,5.0,ytm,5.358339338314306,5.1020408163265305,canal_robustness,False,False,False
+1843-07-29,New York,S-1750,"New York Canal 5s, 1850",n/a,99.75,5.0,ytm,5.045195975378081,5.012531328320802,canal_robustness,False,False,False
+1843-08-05,New York,S-1750,"New York Canal 5s, 1850",n/a,99.0,5.0,ytm,5.181932730718952,5.05050505050505,canal_robustness,False,False,False
+1848-02-26,New York,S-1750,"New York Canal 5s, 1850",n/a,88.0,5.0,ytm,12.226950354609928,5.681818181818182,canal_robustness,False,False,False
+1841-04-03,New York,S-1820,"New York Canal 5s, 1860",n/a,82.0,5.0,ytm,6.549672030904688,6.097560975609756,canal_robustness,False,False,False
+1841-10-02,New York,S-1820,"New York Canal 5s, 1860",n/a,89.0,5.0,ytm,5.928902860635794,5.617977528089887,canal_robustness,False,False,False
+1842-01-29,New York,S-1820,"New York Canal 5s, 1860",n/a,75.5,5.0,ytm,7.255882760007417,6.622516556291391,canal_robustness,False,False,False
+1842-03-12,New York,S-1820,"New York Canal 5s, 1860",n/a,73.5,5.0,ytm,7.479170432914704,6.802721088435375,canal_robustness,False,False,False
+1842-04-09,New York,S-1820,"New York Canal 5s, 1860",n/a,75.0,5.0,ytm,7.325730168534368,6.666666666666667,canal_robustness,False,False,False
+1842-05-14,New York,S-1820,"New York Canal 5s, 1860",n/a,83.0,5.0,ytm,6.5180541663167055,6.024096385542169,canal_robustness,False,False,False
+1842-07-09,New York,S-1820,"New York Canal 5s, 1860",n/a,80.0,5.0,ytm,6.826764117288785,6.25,canal_robustness,False,False,False
+1842-10-08,New York,S-1820,"New York Canal 5s, 1860",n/a,78.0,5.0,ytm,7.052463019890533,6.41025641025641,canal_robustness,False,False,False
+1842-10-15,New York,S-1820,"New York Canal 5s, 1860",n/a,82.25,5.0,ytm,6.618606600638896,6.079027355623101,canal_robustness,False,False,False
+1842-10-22,New York,S-1820,"New York Canal 5s, 1860",n/a,82.625,5.0,ytm,6.582389472353374,6.051437216338881,canal_robustness,False,False,False
+1842-10-29,New York,S-1820,"New York Canal 5s, 1860",n/a,83.0,5.0,ytm,6.546270380736595,6.024096385542169,canal_robustness,False,False,False
+1842-11-12,New York,S-1820,"New York Canal 5s, 1860",n/a,83.0,5.0,ytm,6.548690104828283,6.024096385542169,canal_robustness,False,False,False
+1842-12-03,New York,S-1820,"New York Canal 5s, 1860",n/a,80.0,5.0,ytm,6.856720458836521,6.25,canal_robustness,False,False,False
+1842-12-10,New York,S-1820,"New York Canal 5s, 1860",n/a,82.0,5.0,ytm,6.653986360293533,6.097560975609756,canal_robustness,False,False,False
+1843-02-18,New York,S-1820,"New York Canal 5s, 1860",n/a,90.5,5.0,ytm,5.840629887178726,5.524861878453039,canal_robustness,False,False,False
+1843-04-15,New York,S-1820,"New York Canal 5s, 1860",n/a,91.0,5.0,ytm,5.79942627063046,5.4945054945054945,canal_robustness,False,False,False
+1843-04-29,New York,S-1820,"New York Canal 5s, 1860",n/a,90.0,5.0,ytm,5.894373925290982,5.555555555555555,canal_robustness,False,False,False
+1843-08-05,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.0863779937565345,5.05050505050505,canal_robustness,False,False,False
+1843-09-02,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.086665515338638,5.05050505050505,canal_robustness,False,False,False
+1843-09-30,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.086955748931621,5.05050505050505,canal_robustness,False,False,False
+1843-10-14,New York,S-1820,"New York Canal 5s, 1860",n/a,100.0,5.0,ytm,5.0,5.0,canal_robustness,False,False,False
+1843-10-28,New York,S-1820,"New York Canal 5s, 1860",n/a,99.5,5.0,ytm,5.043515032292188,5.025125628140704,canal_robustness,False,False,False
+1843-12-09,New York,S-1820,"New York Canal 5s, 1860",n/a,104.0,5.0,ytm,4.657823586226718,4.807692307692308,canal_robustness,False,False,False
+1843-12-16,New York,S-1820,"New York Canal 5s, 1860",n/a,102.5,5.0,ytm,4.784371971516454,4.878048780487805,canal_robustness,False,False,False
+1844-01-06,New York,S-1820,"New York Canal 5s, 1860",n/a,102.0,5.0,ytm,4.826626694181664,4.901960784313726,canal_robustness,False,False,False
+1844-01-13,New York,S-1820,"New York Canal 5s, 1860",n/a,102.0,5.0,ytm,4.826478018172187,4.901960784313726,canal_robustness,False,False,False
+1844-07-20,New York,S-1820,"New York Canal 5s, 1860",n/a,102.5,5.0,ytm,4.778453803794934,4.878048780487805,canal_robustness,False,False,False
+1844-07-27,New York,S-1820,"New York Canal 5s, 1860",n/a,103.0,5.0,ytm,4.734561772140392,4.854368932038835,canal_robustness,False,False,False
+1844-08-10,New York,S-1820,"New York Canal 5s, 1860",n/a,103.0,5.0,ytm,4.734084779534306,4.854368932038835,canal_robustness,False,False,False
+1844-09-07,New York,S-1820,"New York Canal 5s, 1860",n/a,102.5,5.0,ytm,4.77705389813601,4.878048780487805,canal_robustness,False,False,False
+1844-09-28,New York,S-1820,"New York Canal 5s, 1860",n/a,102.0,5.0,ytm,4.820714441801259,4.901960784313726,canal_robustness,False,False,False
+1844-10-05,New York,S-1820,"New York Canal 5s, 1860",n/a,102.5,5.0,ytm,4.776242885597299,4.878048780487805,canal_robustness,False,False,False
+1844-10-12,New York,S-1820,"New York Canal 5s, 1860",n/a,103.0,5.0,ytm,4.731908581211668,4.854368932038835,canal_robustness,False,False,False
+1844-10-19,New York,S-1820,"New York Canal 5s, 1860",n/a,104.0,5.0,ytm,4.643972142170989,4.807692307692308,canal_robustness,False,False,False
+1844-12-28,New York,S-1820,"New York Canal 5s, 1860",n/a,103.0,5.0,ytm,4.729180857009864,4.854368932038835,canal_robustness,False,False,False
+1845-01-04,New York,S-1820,"New York Canal 5s, 1860",n/a,104.0,5.0,ytm,4.64034380875638,4.807692307692308,canal_robustness,False,False,False
+1845-01-11,New York,S-1820,"New York Canal 5s, 1860",n/a,104.25,5.0,ytm,4.6179776136041095,4.796163069544365,canal_robustness,False,False,False
+1845-01-25,New York,S-1820,"New York Canal 5s, 1860",n/a,104.5,5.0,ytm,4.5952455881284955,4.784688995215311,canal_robustness,False,False,False
+1845-02-15,New York,S-1820,"New York Canal 5s, 1860",n/a,103.25,5.0,ytm,4.705051744056921,4.842615012106537,canal_robustness,False,False,False
+1845-05-10,New York,S-1820,"New York Canal 5s, 1860",n/a,100.25,5.0,ytm,4.976708166950593,4.987531172069826,canal_robustness,False,False,False
+1845-10-18,New York,S-1820,"New York Canal 5s, 1860",n/a,101.0,5.0,ytm,4.905071788321307,4.9504950495049505,canal_robustness,False,False,False
+1845-12-27,New York,S-1820,"New York Canal 5s, 1860",n/a,98.25,5.0,ytm,5.1701287200873995,5.089058524173027,canal_robustness,False,False,False
+1846-03-21,New York,S-1820,"New York Canal 5s, 1860",n/a,99.5,5.0,ytm,5.0489005589062055,5.025125628140704,canal_robustness,False,False,False
+1846-03-28,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.098148390650287,5.05050505050505,canal_robustness,False,False,False
+1846-05-09,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.0987636275661155,5.05050505050505,canal_robustness,False,False,False
+1846-05-16,New York,S-1820,"New York Canal 5s, 1860",n/a,96.0,5.0,ytm,5.401521797951804,5.208333333333334,canal_robustness,False,False,False
+1846-07-25,New York,S-1820,"New York Canal 5s, 1860",n/a,98.0,5.0,ytm,5.200847101825097,5.1020408163265305,canal_robustness,False,False,False
+1846-08-01,New York,S-1820,"New York Canal 5s, 1860",n/a,98.0,5.0,ytm,5.201061832361567,5.1020408163265305,canal_robustness,False,False,False
+1846-09-12,New York,S-1820,"New York Canal 5s, 1860",n/a,97.5,5.0,ytm,5.25359440005627,5.128205128205128,canal_robustness,False,False,False
+1846-09-26,New York,S-1820,"New York Canal 5s, 1860",n/a,97.5,5.0,ytm,5.254144295959557,5.128205128205128,canal_robustness,False,False,False
+1846-10-03,New York,S-1820,"New York Canal 5s, 1860",n/a,97.75,5.0,ytm,5.228688913986357,5.115089514066496,canal_robustness,False,False,False
+1846-10-10,New York,S-1820,"New York Canal 5s, 1860",n/a,99.25,5.0,ytm,5.075738116467077,5.037783375314862,canal_robustness,False,False,False
+1846-10-31,New York,S-1820,"New York Canal 5s, 1860",n/a,99.0,5.0,ytm,5.101442764759347,5.05050505050505,canal_robustness,False,False,False
+1846-12-05,New York,S-1820,"New York Canal 5s, 1860",n/a,97.0,5.0,ytm,5.309113136843224,5.154639175257731,canal_robustness,False,False,False
+1847-02-13,New York,S-1820,"New York Canal 5s, 1860",n/a,98.0,5.0,ytm,5.207333698300755,5.1020408163265305,canal_robustness,False,False,False
+1847-05-01,New York,S-1820,"New York Canal 5s, 1860",n/a,98.5,5.0,ytm,5.157060625390515,5.0761421319796955,canal_robustness,False,False,False
+1847-07-03,New York,S-1820,"New York Canal 5s, 1860",n/a,101.75,5.0,ytm,4.817824864853126,4.914004914004914,canal_robustness,False,False,False
+1847-07-10,New York,S-1820,"New York Canal 5s, 1860",n/a,101.5,5.0,ytm,4.843473205021138,4.926108374384237,canal_robustness,False,False,False
+1847-08-07,New York,S-1820,"New York Canal 5s, 1860",n/a,101.0,5.0,ytm,4.894896379031993,4.9504950495049505,canal_robustness,False,False,False
+1847-10-23,New York,S-1820,"New York Canal 5s, 1860",n/a,100.5,5.0,ytm,4.946621768059079,4.975124378109453,canal_robustness,False,False,False
+1847-11-06,New York,S-1820,"New York Canal 5s, 1860",n/a,101.0,5.0,ytm,4.893251696014185,4.9504950495049505,canal_robustness,False,False,False
+1847-12-18,New York,S-1820,"New York Canal 5s, 1860",n/a,97.0,5.0,ytm,5.329141119521963,5.154639175257731,canal_robustness,False,False,False
+1847-12-25,New York,S-1820,"New York Canal 5s, 1860",n/a,96.0,5.0,ytm,5.441634512574962,5.208333333333334,canal_robustness,False,False,False
+1848-05-06,New York,S-1820,"New York Canal 5s, 1860",n/a,95.5,5.0,ytm,5.510076077494146,5.2356020942408374,canal_robustness,False,False,False
+1848-06-10,New York,S-1820,"New York Canal 5s, 1860",n/a,98.0,5.0,ytm,5.225275014474446,5.1020408163265305,canal_robustness,False,False,False
+1848-06-17,New York,S-1820,"New York Canal 5s, 1860",n/a,97.25,5.0,ytm,5.311331520145777,5.141388174807198,canal_robustness,False,False,False
+1848-06-24,New York,S-1820,"New York Canal 5s, 1860",n/a,97.5,5.0,ytm,5.28303532752563,5.128205128205128,canal_robustness,False,False,False
+1848-07-15,New York,S-1820,"New York Canal 5s, 1860",n/a,96.0,5.0,ytm,5.458099169928301,5.208333333333334,canal_robustness,False,False,False
+1848-08-05,New York,S-1820,"New York Canal 5s, 1860",n/a,97.0,5.0,ytm,5.343169627952656,5.154639175257731,canal_robustness,False,False,False
+1848-09-02,New York,S-1820,"New York Canal 5s, 1860",n/a,97.5,5.0,ytm,5.286752604756165,5.128205128205128,canal_robustness,False,False,False
+1848-09-09,New York,S-1820,"New York Canal 5s, 1860",n/a,98.25,5.0,ytm,5.20023151009972,5.089058524173027,canal_robustness,False,False,False
+1848-09-16,New York,S-1820,"New York Canal 5s, 1860",n/a,96.75,5.0,ytm,5.375189333951198,5.167958656330749,canal_robustness,False,False,False
+1848-09-30,New York,S-1820,"New York Canal 5s, 1860",n/a,98.5,5.0,ytm,5.17209362187207,5.0761421319796955,canal_robustness,False,False,False
+1848-10-14,New York,S-1820,"New York Canal 5s, 1860",n/a,160.0,5.0,ytm,-0.26949368990384615,3.125,canal_robustness,False,False,False
+1848-10-28,New York,S-1820,"New York Canal 5s, 1860",n/a,99.5,5.0,ytm,5.057382554868307,5.025125628140704,canal_robustness,False,False,False
+1842-01-08,New York,S-1950,"New York Canal 6s, 1861",n/a,81.0,6.0,ytm,7.735882435911841,7.4074074074074066,canal_robustness,False,False,False
+1842-01-15,New York,S-1950,"New York Canal 6s, 1861",n/a,76.0,6.0,ytm,8.256438190743706,7.894736842105263,canal_robustness,False,False,False
+1842-02-12,New York,S-1950,"New York Canal 6s, 1861",n/a,80.0,6.0,ytm,7.843336232724461,7.5,canal_robustness,False,False,False
+1842-03-05,New York,S-1950,"New York Canal 6s, 1861",n/a,82.0,6.0,ytm,7.643970105799393,7.317073170731707,canal_robustness,False,False,False
+1842-03-26,New York,S-1950,"New York Canal 6s, 1861",n/a,81.0,6.0,ytm,7.748304505631233,7.4074074074074066,canal_robustness,False,False,False
+1842-04-09,New York,S-1950,"New York Canal 6s, 1861",n/a,82.0,6.0,ytm,7.649344224906926,7.317073170731707,canal_robustness,False,False,False
+1842-04-16,New York,S-1950,"New York Canal 6s, 1861",n/a,85.75,6.0,ytm,7.280209042012206,6.997084548104956,canal_robustness,False,False,False
+1842-05-28,New York,S-1950,"New York Canal 6s, 1861",n/a,90.25,6.0,ytm,6.8586004801649985,6.64819944598338,canal_robustness,False,False,False
+1842-06-04,New York,S-1950,"New York Canal 6s, 1861",n/a,91.0,6.0,ytm,6.789964864527059,6.593406593406594,canal_robustness,False,False,False
+1842-06-18,New York,S-1950,"New York Canal 6s, 1861",n/a,94.0,6.0,ytm,6.519187558229459,6.382978723404255,canal_robustness,False,False,False
+1842-07-23,New York,S-1950,"New York Canal 6s, 1861",n/a,89.0,6.0,ytm,6.980286548343548,6.741573033707865,canal_robustness,False,False,False
+1842-07-30,New York,S-1950,"New York Canal 6s, 1861",n/a,90.25,6.0,ytm,6.863759462504368,6.64819944598338,canal_robustness,False,False,False
+1842-12-03,New York,S-1950,"New York Canal 6s, 1861",n/a,93.5,6.0,ytm,6.573124580357688,6.417112299465241,canal_robustness,False,False,False
+1843-01-14,New York,S-1950,"New York Canal 6s, 1861",n/a,95.5,6.0,ytm,6.3943490810845365,6.282722513089005,canal_robustness,False,False,False
+1843-01-21,New York,S-1950,"New York Canal 6s, 1861",n/a,96.75,6.0,ytm,6.2831945894236725,6.2015503875969,canal_robustness,False,False,False
+1843-01-28,New York,S-1950,"New York Canal 6s, 1861",n/a,98.25,6.0,ytm,6.151440791100505,6.106870229007633,canal_robustness,False,False,False
+1843-02-04,New York,S-1950,"New York Canal 6s, 1861",n/a,99.0,6.0,ytm,6.08627144282796,6.0606060606060606,canal_robustness,False,False,False
+1843-02-11,New York,S-1950,"New York Canal 6s, 1861",n/a,100.0,6.0,ytm,6.0,6.0,canal_robustness,False,False,False
+1843-02-18,New York,S-1950,"New York Canal 6s, 1861",n/a,100.0,6.0,ytm,6.0,6.0,canal_robustness,False,False,False
+1843-03-04,New York,S-1950,"New York Canal 6s, 1861",n/a,100.0,6.0,ytm,6.0,6.0,canal_robustness,False,False,False
+1843-03-11,New York,S-1950,"New York Canal 6s, 1861",n/a,102.0,6.0,ytm,5.829424780781183,5.88235294117647,canal_robustness,False,False,False
+1843-03-18,New York,S-1950,"New York Canal 6s, 1861",n/a,102.0,6.0,ytm,5.829305041598174,5.88235294117647,canal_robustness,False,False,False
+1843-04-08,New York,S-1950,"New York Canal 6s, 1861",n/a,101.5,6.0,ytm,5.8713898616198215,5.911330049261084,canal_robustness,False,False,False
+1843-04-15,New York,S-1950,"New York Canal 6s, 1861",n/a,102.0,6.0,ytm,5.828823494310488,5.88235294117647,canal_robustness,False,False,False
+1843-04-22,New York,S-1950,"New York Canal 6s, 1861",n/a,104.0,6.0,ytm,5.660763686662785,5.769230769230769,canal_robustness,False,False,False
+1843-05-06,New York,S-1950,"New York Canal 6s, 1861",n/a,104.5,6.0,ytm,5.61875248763291,5.741626794258373,canal_robustness,False,False,False
+1843-05-13,New York,S-1950,"New York Canal 6s, 1861",n/a,106.0,6.0,ytm,5.495013026856873,5.660377358490567,canal_robustness,False,False,False
+1843-05-20,New York,S-1950,"New York Canal 6s, 1861",n/a,106.0,6.0,ytm,5.494653858453963,5.660377358490567,canal_robustness,False,False,False
+1843-06-03,New York,S-1950,"New York Canal 6s, 1861",n/a,107.0,6.0,ytm,5.4124409299554515,5.607476635514018,canal_robustness,False,False,False
+1843-06-10,New York,S-1950,"New York Canal 6s, 1861",n/a,107.0,6.0,ytm,5.412021191274978,5.607476635514018,canal_robustness,False,False,False
+1843-06-17,New York,S-1950,"New York Canal 6s, 1861",n/a,108.5,6.0,ytm,5.290655116356353,5.529953917050691,canal_robustness,False,False,False
+1843-07-01,New York,S-1950,"New York Canal 6s, 1861",n/a,109.5,6.0,ytm,5.209855152092914,5.47945205479452,canal_robustness,False,False,False
+1843-08-19,New York,S-1950,"New York Canal 6s, 1861",n/a,108.0,6.0,ytm,5.326422985997454,5.555555555555555,canal_robustness,False,False,False
+1843-08-26,New York,S-1950,"New York Canal 6s, 1861",n/a,105.0,6.0,ytm,5.572543466046842,5.714285714285714,canal_robustness,False,False,False
+1843-09-30,New York,S-1950,"New York Canal 6s, 1861",n/a,106.5,6.0,ytm,5.44632845191901,5.633802816901409,canal_robustness,False,False,False
