@@ -1,0 +1,7 @@
+measure,group_a,n_a,group_b,n_b,gap
+"New York canal mean yield, Apr 1 1843 onward, S-1820 160.00 print excluded",5.262051984894315,78.0,,,
+"Indiana paid second minus paid first, both odd quotes dropped (headline) (group_a = paid second, group_b = paid first)",48.382226502297804,41.0,17.95538095819641,94.0,30.426845544101393
+"Indiana, neither odd quote dropped (group_a = paid second, group_b = paid first)",57.99235550219093,43.0,17.95538095819641,94.0,40.03697454399452
+"Indiana, only S-0480 $50 quote dropped (group_a = paid second, group_b = paid first)",59.13503063319548,42.0,17.95538095819641,94.0,41.17964967499907
+"Indiana, only S-0506 $1 quote dropped (group_a = paid second, group_b = paid first)",47.468363966528806,42.0,17.95538095819641,94.0,29.512983008332395
+"Months with both groups quoted, and months paid second yields more (group_a = months quoted, group_b = months paid second higher)",25.0,,25.0,,

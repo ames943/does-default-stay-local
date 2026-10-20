@@ -13,7 +13,8 @@ saved:
 - the New York canal legend shows a single "New York" entry;
 - date axes spanning under 6 years get yearly ticks.
 
-Each chart is written as <name>_clean.png (300 dpi) and <name>_clean.pdf.
+Each chart is written to figures/ as a PNG (300 dpi) and a PDF under the name the
+paper uses (fig1_canal_bonds through fig7_cincinnati_vs_ohio, see FIG_NAMES).
 
 Run from anywhere after the rest of the pipeline has produced output/*.csv.
 """
@@ -39,6 +40,16 @@ import compare_city_vs_state as cvs  # noqa: E402
 import compare_city_vs_state_cincinnati_pittsburgh as cip  # noqa: E402
 import compare_canal_robustness as canal  # noqa: E402
 
+# Name each chart builder saves under -> name the paper uses.
+FIG_NAMES = {
+    "chart_canal_robustness": "fig1_canal_bonds",
+    "chart_panic_window": "fig2_states_panic",
+    "chart_policy_short_medium": "fig3_states_after_signal",
+    "chart_policy_long_term": "fig4_ohio_alabama_long_run",
+    "chart_city_vs_state": "fig5_philadelphia_vs_pennsylvania",
+    "chart_pittsburgh_vs_pa": "fig6_pittsburgh_vs_pennsylvania",
+    "chart_cincinnati_vs_ohio": "fig7_cincinnati_vs_ohio",
+}
 PANEL_TITLES = {
     "New York Canal Bonds (secondary/robustness)": "New York canal bonds",
     "Indiana Butler Bill Tranches: Preferred vs. Deferred": "Indiana: bonds paid first vs. second",
@@ -80,7 +91,7 @@ def clean_figure(fig, stem: str) -> None:
         for t in ax.texts:
             t.set_text(plain_label(t.get_text()))
             name = t.get_text().split(" ")[0].split("\n")[0]
-            if stem == "chart_policy_short_medium_clean" and name in LABEL_NUDGE:
+            if stem == "chart_policy_short_medium" and name in LABEL_NUDGE:
                 x, y = t.xyann
                 t.xyann = (x, y + LABEL_NUDGE[name])
         # A lone data point has no line segment to draw, so give it a marker.
@@ -116,15 +127,14 @@ def clean_figure(fig, stem: str) -> None:
 
 
 def final_savefig(self, fname, *args, **kwargs):
-    stem = Path(str(fname)).stem + "_clean"
+    stem = Path(str(fname)).stem
     clean_figure(self, stem)
-    if Path(stem).stem.removesuffix("_clean") in TICK_EVERY:
-        years = TICK_EVERY[Path(stem).stem.removesuffix("_clean")]
+    if stem in TICK_EVERY:
         for ax in self.axes:
             if isinstance(ax.xaxis.get_major_formatter(), mdates.DateFormatter):
-                ax.xaxis.set_major_locator(mdates.YearLocator(years, month=1, day=1))
+                ax.xaxis.set_major_locator(mdates.YearLocator(TICK_EVERY[stem], month=1, day=1))
     self.tight_layout()
-    base = FINAL / stem
+    base = FINAL / FIG_NAMES[stem]
     _orig_savefig(self, base.with_suffix(".png"), dpi=300, facecolor=self.get_facecolor())
     _orig_savefig(self, base.with_suffix(".pdf"), facecolor=self.get_facecolor())
     print(f"saved -> {base}.png / .pdf")

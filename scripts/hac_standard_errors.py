@@ -7,10 +7,11 @@ since the weekly quotes are strongly autocorrelated.
 
 Windows
 -------
-- Philadelphia, before the signal: all matched dates before Apr 1 1843.
+- Philadelphia, before the signal: all matched dates before Feb 11 1843 (SIGNAL_DATE).
+  Dates from Feb 11 to Mar 31 1843 are in neither window.
 - Philadelphia, after: Feb 3 1844 to Jan 25 1845, the dates where C-1100 and
   Pennsylvania are both quoted after C-1100's gap.
-- Pittsburgh, after: Apr 1 1843 to Jan 25 1845, Pennsylvania's coverage ceiling.
+- Pittsburgh, after: Apr 1 1843 (AFTER_START) to Jan 25 1845, Pennsylvania's coverage ceiling.
 - Cincinnati, after: Apr 1 1843 onward.
 The change for Philadelphia is after minus before, with the two standard errors
 combined as independent.
@@ -25,7 +26,8 @@ import pandas as pd
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "output"
 
-SIGNAL = pd.Timestamp("1843-04-01")
+SIGNAL_DATE = pd.Timestamp("1843-02-11")  # no-bailout signal; ends the before window
+AFTER_START = pd.Timestamp("1843-04-01")  # start of the after-signal windows
 PA_CEILING = pd.Timestamp("1845-01-25")
 PHILADELPHIA_POST_START = pd.Timestamp("1844-02-03")
 
@@ -51,10 +53,10 @@ def matched_gap(csv_name: str, start: pd.Timestamp, end: pd.Timestamp) -> np.nda
 
 def main() -> None:
     windows = [
-        ("Philadelphia/PA, before signal", "city_vs_state_yields.csv", pd.Timestamp("1800-01-01"), SIGNAL - pd.Timedelta(days=1)),
+        ("Philadelphia/PA, before signal", "city_vs_state_yields.csv", pd.Timestamp("1800-01-01"), SIGNAL_DATE - pd.Timedelta(days=1)),
         ("Philadelphia/PA, after signal", "city_vs_state_yields.csv", PHILADELPHIA_POST_START, PA_CEILING),
-        ("Pittsburgh/PA, after signal", "city_vs_state_pittsburgh.csv", SIGNAL, PA_CEILING),
-        ("Cincinnati/Ohio, after signal", "city_vs_state_cincinnati.csv", SIGNAL, pd.Timestamp("2000-01-01")),
+        ("Pittsburgh/PA, after signal", "city_vs_state_pittsburgh.csv", AFTER_START, PA_CEILING),
+        ("Cincinnati/Ohio, after signal", "city_vs_state_cincinnati.csv", AFTER_START, pd.Timestamp("2000-01-01")),
     ]
     rows = []
     for label, csv_name, start, end in windows:

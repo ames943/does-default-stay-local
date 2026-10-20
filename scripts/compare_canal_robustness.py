@@ -34,9 +34,21 @@ is S-0480 (Deferred 5s) plus S-0506 (Special Deferred 5s). These trade from
 signal. It asks whether the market priced the seniority difference that the
 restructuring created.
 
+Summary numbers used in the paper
+---------------------------------
+write_summary() saves output/canal_summary.csv with
+- the New York canal mean yield from Apr 1 1843 onward, leaving out the S-1820
+  price of 160.00 on 1848-10-14 (a transcription error), and
+- the Indiana paid-first (preferred) and paid-second (deferred) comparison over
+  the dates both are quoted, after dropping two unusual quotes: the S-0506 price
+  of $1 on 1851-10-08 and the S-0480 price of $50 on 1850-09-21. The gap with
+  each of the two quotes kept or dropped is saved as well, along with the number
+  of months in which both groups are quoted and paid second yields more.
+
 Outputs
 -------
 - output/canal_robustness_yields.csv
+- output/canal_summary.csv
 - output/chart_canal_robustness.png
 """
 
@@ -91,6 +103,12 @@ S1750_GAP_END = pd.Timestamp("1848-02-26")
 # parsing error, but it is almost certainly a transcription error. It is left in
 # canal_robustness_yields.csv and dropped from the chart line only.
 S1820_ANOMALY_DATE = pd.Timestamp("1848-10-14")
+
+# Two Indiana quotes left out of the headline paid-first / paid-second gap:
+# S-0506 at $1 (a 500% current yield) and S-0480 at $50 (its first quote, far
+# above every later one).
+INDIANA_S0506_ODD_QUOTE = ("S-0506", pd.Timestamp("1851-10-08"))
+INDIANA_S0480_ODD_QUOTE = ("S-0480", pd.Timestamp("1850-09-21"))
 
 SURFACE = "#fcfcfb"
 PRIMARY_TEXT = "#0b0b0b"
@@ -192,6 +210,69 @@ def trade_density_report(ny_df: pd.DataFrame) -> None:
             print(f"{code:8} n=0{status}")
             continue
         print(f"{code:8} n={len(s):4} range={s.index.min().date()} to {s.index.max().date()}{status}")
+    print()
+
+
+def usable_ny_canal_after_signal(ny_canal: pd.DataFrame) -> pd.DataFrame:
+    df = ny_canal[~ny_canal.excluded_near_maturity & ~ny_canal.excluded_past_maturity]
+    df = df[df.date >= SIGNAL]
+    return df[~((df.code == "S-1820") & (df.date == S1820_ANOMALY_DATE))]
+
+
+def indiana_overlap(indiana: pd.DataFrame):
+    pref = indiana[indiana.tranche == "preferred"]
+    defr = indiana[indiana.tranche == "deferred"]
+    start = max(pref.date.min(), defr.date.min())
+    end = min(pref.date.max(), defr.date.max())
+    return (pref[(pref.date >= start) & (pref.date <= end)],
+            defr[(defr.date >= start) & (defr.date <= end)])
+
+
+def is_quote(df: pd.DataFrame, quote: tuple) -> pd.Series:
+    return (df.code == quote[0]) & (df.date == quote[1])
+
+
+def write_summary(ny_canal: pd.DataFrame, indiana: pd.DataFrame) -> None:
+    rows = []
+
+    ny = usable_ny_canal_after_signal(ny_canal)
+    rows.append({"measure": "New York canal mean yield, Apr 1 1843 onward, S-1820 160.00 print excluded",
+                 "group_a": ny["yield"].mean(), "n_a": len(ny), "group_b": None, "n_b": None, "gap": None})
+
+    first, second = indiana_overlap(indiana)
+    cases = [
+        ("Indiana paid second minus paid first, both odd quotes dropped (headline)", True, True),
+        ("Indiana, neither odd quote dropped", False, False),
+        ("Indiana, only S-0480 $50 quote dropped", False, True),
+        ("Indiana, only S-0506 $1 quote dropped", True, False),
+    ]
+    for label, drop_0506, drop_0480 in cases:
+        keep = pd.Series(True, index=second.index)
+        if drop_0506:
+            keep &= ~is_quote(second, INDIANA_S0506_ODD_QUOTE)
+        if drop_0480:
+            keep &= ~is_quote(second, INDIANA_S0480_ODD_QUOTE)
+        sec = second[keep]
+        rows.append({"measure": label + " (group_a = paid second, group_b = paid first)",
+                     "group_a": sec["yield"].mean(), "n_a": len(sec),
+                     "group_b": first["yield"].mean(), "n_b": len(first),
+                     "gap": sec["yield"].mean() - first["yield"].mean()})
+
+    keep = ~is_quote(second, INDIANA_S0506_ODD_QUOTE) & ~is_quote(second, INDIANA_S0480_ODD_QUOTE)
+    monthly = pd.concat(
+        [first.groupby(first.date.dt.to_period("M"))["yield"].mean(),
+         second[keep].groupby(second[keep].date.dt.to_period("M"))["yield"].mean()],
+        axis=1, join="inner", keys=["paid_first", "paid_second"],
+    )
+    rows.append({"measure": "Months with both groups quoted, and months paid second yields more "
+                            "(group_a = months quoted, group_b = months paid second higher)",
+                 "group_a": len(monthly), "n_a": None, "group_b": int((monthly.paid_second > monthly.paid_first).sum()),
+                 "n_b": None, "gap": None})
+
+    out = pd.DataFrame(rows)
+    out.to_csv(OUTPUT_DIR / "canal_summary.csv", index=False)
+    print("=== Summary numbers (output/canal_summary.csv) ===")
+    print(out.round(3).to_string(index=False))
     print()
 
 
@@ -350,6 +431,7 @@ def main() -> None:
     print()
 
     print_tranche_summary(indiana)
+    write_summary(ny_canal, indiana)
 
     build_chart(ny_canal, indiana)
 
