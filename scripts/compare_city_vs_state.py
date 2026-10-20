@@ -56,6 +56,7 @@ CITY_COUPON = 5.0  # "Philadelphia 5s, r. 1846" (Securities Index.xls)
 GAP_START = pd.Timestamp("1843-02-25")  # C-1100's last obs before the gap
 GAP_END = pd.Timestamp("1844-02-03")  # C-1100's first obs after the gap
 SIGNAL = pd.Timestamp("1843-04-01")  # no-bailout signal (falls inside the gap)
+PRE_SIGNAL_END = pd.Timestamp("1843-02-11")  # printed before-signal spread ends here, as in hac_standard_errors.py
 PA_DEFAULT = pd.Timestamp("1842-08-01")
 
 SURFACE = "#fcfcfb"
@@ -145,9 +146,9 @@ def print_spread_summary(city_price: pd.Series, pa_yield_by_date: pd.Series) -> 
     city_yield = CITY_COUPON / city_price * 100
     matched_start = city_yield.index.min()
 
-    pa_pre = pa_yield_by_date[(pa_yield_by_date.index >= matched_start) & (pa_yield_by_date.index < SIGNAL)]
-    city_pre = city_yield[(city_yield.index >= matched_start) & (city_yield.index < SIGNAL)]
-    print(f"Matched pre-signal window ({matched_start.date()} to {SIGNAL.date()}):")
+    pa_pre = pa_yield_by_date[(pa_yield_by_date.index >= matched_start) & (pa_yield_by_date.index < PRE_SIGNAL_END)]
+    city_pre = city_yield[(city_yield.index >= matched_start) & (city_yield.index < PRE_SIGNAL_END)]
+    print(f"Matched pre-signal window ({matched_start.date()} to {PRE_SIGNAL_END.date()}):")
     print(f"  Pennsylvania (state): mean {pa_pre.mean():.2f}%  n={len(pa_pre)}")
     print(f"  Philadelphia (city):  mean {city_pre.mean():.2f}%  n={len(city_pre)}")
     print(f"  Spread: {pa_pre.mean() - city_pre.mean():.2f}pp")
