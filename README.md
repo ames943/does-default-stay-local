@@ -2,21 +2,23 @@
 
 Code, data and figures for *Does Default Stay Local? City and State Credit in the Wake of America's 1840s No-Bailout Commitment*, by Amey Garg.
 
+Paper: https://doi.org/10.5281/zenodo.23506736
+
 In the early 1840s several US states stopped paying their debts, and the federal government refused to step in. The paper asks two things. Did bond markets treat that refusal as a credible commitment? And when a state defaulted, did the market also punish the state's own cities, which had not defaulted, or did it keep city credit and state credit apart?
 
 I use weekly bond prices from the EH.net Early U.S. Securities Prices database, turn them into yields, and compare state bonds with city bonds before and after February 1843, when the House debate made the no-bailout stance clear.
 
 ## Main results
 
-Gap between the state's yield and its city's yield, in percentage points, after the signal. Standard errors are Newey-West; the unit is a date on which both bonds were quoted.
+Gap between the state's yield and its city's yield, in percentage points, after the Apr 1843 signal. The unit is a date on which both bonds were quoted. Standard errors are Newey-West (`scripts/hac_standard_errors.py`).
 
-| Pair | Dates | Mean gap | 95% CI |
+| Pair | Dates | Mean gap | Std. error |
 |---|---|---|---|
-| Pennsylvania minus Philadelphia | 41 | +2.68 | [+2.45, +2.90] |
-| Pennsylvania minus Pittsburgh | 83 | +2.48 | [+1.94, +3.01] |
-| Ohio minus Cincinnati | 255 | -0.08 | [-0.26, +0.09] |
+| Pennsylvania minus Philadelphia | 41 | +2.68 | 0.11 |
+| Pennsylvania minus Pittsburgh | 83 | +2.48 | 0.27 |
+| Ohio minus Cincinnati | 255 | -0.08 | 0.09 |
 
-Pennsylvania's own yield rises while its cities' yields barely move. Ohio never defaulted, and Cincinnati trades with it. Charts are in `figures/`.
+Pennsylvania's own yield rises while its cities' yields barely move. Ohio never defaulted, and Cincinnati trades with it.
 
 ## Layout
 
@@ -26,7 +28,25 @@ scripts/      the pipeline, in the order below
 output/       yields and comparison tables (CSV)
 output/checks/ one-off diagnostic tables (see below)
 figures/      the paper's charts, PNG and PDF
+LICENSE       MIT (code)
 ```
+
+## Which script produces what
+
+| Script | Output | Figure in `figures/` | Used for |
+|---|---|---|---|
+| `parse_securities.py` | `philadelphia_state_debt_prices.csv`, `new_york_state_debt_prices.csv` | | Section 3, price tables |
+| `identify_candidates.py` | `candidate_state_codes.csv` | | Section 3, matching codes to states |
+| `calculate_yields.py` | `primary_yields.csv` | | Sections 3 and 4, yields for the five states |
+| `build_yield_charts.py` | | `chart_panic_window`, `chart_policy_short_medium`, `chart_policy_long_term` | Section 4, state-level yields |
+| `compare_city_vs_state.py` | `city_vs_state_yields.csv` | `chart_city_vs_state` | Section 5, Philadelphia and Pennsylvania |
+| `compare_city_vs_state_cincinnati_pittsburgh.py` | `city_vs_state_pittsburgh.csv`, `city_vs_state_cincinnati.csv` | `chart_pittsburgh_vs_pa`, `chart_cincinnati_vs_ohio` | Section 5, Pittsburgh and Cincinnati |
+| `hac_standard_errors.py` | `hac_standard_errors.csv` | | Section 5, results table |
+| `compare_canal_robustness.py` | `canal_robustness_yields.csv` | `chart_canal_robustness` | Section 6, canal bonds and the Indiana preferred/deferred gap |
+| `pa_bridge_secondary.py` | `pa_bridge_secondary.csv` | | Pennsylvania past Dec 1844, extended view |
+| `make_paper_charts.py` | | all seven figures above | the paper's versions, without titles or footnotes |
+
+The Philadelphia second-bond check (C-1260) is in `output/checks/`; see the notes at the bottom.
 
 ## Running it
 
@@ -43,14 +63,9 @@ python3 build_yield_charts.py
 python3 compare_city_vs_state.py
 python3 compare_city_vs_state_cincinnati_pittsburgh.py
 python3 compare_canal_robustness.py
+python3 hac_standard_errors.py
 python3 make_paper_charts.py
 ```
-
-1. `parse_securities.py` reads the state-debt sheets of the raw files into price tables.
-2. `identify_candidates.py` matches price series to states using the codebook.
-3. `calculate_yields.py` computes yields for the main bonds (`primary_yields.csv`).
-4. `compare_*.py` run the city/state and canal comparisons.
-5. `make_paper_charts.py` writes the figures without titles or footnotes, since the paper has its own captions.
 
 Running `build_yield_charts.py` and the `compare_*.py` scripts also writes captioned versions of the charts to `output/`. Those are not tracked.
 
@@ -64,7 +79,7 @@ Running `build_yield_charts.py` and the `compare_*.py` scripts also writes capti
 
 ## Data
 
-- EH.net, *Early U.S. Securities Prices*: https://eh.net/database/early-u-s-securities-prices/ . The files used are `New-York.xls`, `Philadelphia1.xls` and the codebook `Securities Index.xls`. Check the EH.net terms before reusing them.
+- All price data come from the EH.Net *Early U.S. Securities Prices* database: https://eh.net/database/early-u-s-securities-prices/ . The files used are `New-York.xls`, `Philadelphia1.xls` and the codebook `Securities Index.xls`, copied unchanged into `data/raw/`. The data belong to their original compilers; see EH.Net for terms and citation.
 - Two things to know about the New York file. Its state debt is split across two sheets ("NY State Debt" and "Other State Debt"), and the second one holds other states' bonds quoted in New York. The parser tags each column with its sheet.
 
 ## Notes
@@ -72,3 +87,7 @@ Running `build_yield_charts.py` and the `compare_*.py` scripts also writes capti
 - Everything in `output/` other than `checks/` is produced by the scripts and reproduces from the raw files.
 - The tables in `output/checks/` come from one-off checks run interactively (trade density, the second Philadelphia bond, the NYC and Brooklyn candidates, the Ohio yield check, the Indiana tranche check, and primary yields before the default override). The code for them is not saved here.
 - Dates and the no-bailout anchor rest on secondary sources plus a Congressional Globe page (27th Congress, 3rd session, pp. 283-284) where the exact day could not be read.
+
+## License
+
+The code is released under the MIT license (see `LICENSE`). The raw data in `data/raw/` are not covered by it.
